@@ -165,28 +165,6 @@
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>友情链接</span>
-    </a>
-    
-  </li>
-  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -267,28 +245,6 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			留言板
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			友情链接
 		</a>
           
         </li>
@@ -496,7 +452,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'true' === 'true',
+            indicators: 'false' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -525,16 +481,6 @@
         };
 
         
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
     });
 </script>
 
@@ -556,7 +502,7 @@
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            情之一字，不知所起，不知所栖。不知所结，不知所解。不知所踪，不知所终。
+            情之一字，不知所起，不知所栖。不知所结，不知所解。不知所踪，不知所。
         </div>
     </div>
 </div>
