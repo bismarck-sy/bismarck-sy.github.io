@@ -1,2 +1,6 @@
+http://bismarck-sy.github.io/404/index.html
+http://bismarck-sy.github.io/about/index.html
+http://bismarck-sy.github.io/tags/index.html
+http://bismarck-sy.github.io/categories/index.html
 http://bismarck-sy.github.io/2023/05/15/hello-world/
 http://bismarck-sy.github.io/
